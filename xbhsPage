@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+   
+	<table>
+		<tr>
+		    <td width="250">
+			logo goes here
+			</td>
+		
+			<td width="500">
+			links go here
+			</td>
+			
+			<td width="50">
+			login goes here
+            </td>
+			
+		</tr>
+			<td width="200">
+			    <table>
+					<tr>
+						<td>
+							photos
+						</td>
+                    </tr>
+						
+				    <tr>
+						<td>
+							courses
+					    </td>
+					</tr>
+				    <tr>
+						<td>
+							support
+						</td>
+						
+					</tr>
+						<td>
+							sports
+						</td>
+					
+					<tr>
+						<td>
+							clubs
+						</td>
+                    </tr>
+                    
+                </table>
+				
+				
+			</td>
+			
+			<td width="600">
+				picture
+			</td>
+			
+		<tr>
+			<td width="800">
+				this week's events
+            </td>
+        </tr>
+				
+		<tr>
+			<td>
+				monday
+			</td>
+			
+			<td>
+				tuedasy
+			</td>
+			
+			<td>
+				wed
+			</td>
+			
+			<td>
+				thurs
+			</td>
+			
+			<td>
+				friday
+			</td>
+			
+		<tr>
+			<td width="400">
+				college
+			</td>
+			
+			<td width="400">
+				tweets
+			</td>
+			
+		<tr>
+			<td width="400">
+				principal
+			</td>
+			
+			<td width="400">
+				brothers
+			</td>
+			
+	</table>
+
+		
+		
+	
+</body>
+
+</html>
