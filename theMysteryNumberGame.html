@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<script>
+var name;
+var number;
+var playerAnswer;
+var guesses = 0;
+var plays = 0;
+
+name = prompt("what is ur name");
+
+//directions
+alert("guess my number and i will tell you whether you are too high or low." +
+"you get 4 guesses to get my number and 3 strikes until you can't play.");
+
+while(plays < 3 && playerAnswer != "n")
+{
+    guesses = 0;
+
+    number = Math.floor((Math.random() * 10) + 1);
+
+    do{
+
+        playerAnswer = prompt("guess my number");
+
+        if(playerAnswer == number)
+        {
+        alert("nice job " + name +"!");
+
+        }
+
+        if(playerAnswer > number)
+        {
+        alert("too high " + name + "!");
+        guesses++;
+        }
+        if(playerAnswer < number)
+        {
+        alert("too low " + name + "!");
+        guesses++;
+
+        }
+    }
+     while(guesses < 4 && playerAnswer != number);
+    if(playerAnswer != number)
+    {
+    alert("you are out of guesses. the correct answer is " + number + "!");
+    playerAnswer = prompt("play again? (y/n)");
+    plays++;
+    }
+    else
+    {
+    playerAnswer = prompt("play again? (y/n)");
+        
+    }
+}
+alert("you can't play anymore");
+
+
+
+
+
+</script>
+</body>
+</html>
